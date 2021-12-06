@@ -60,17 +60,41 @@
 		9E0B848C275E578600EFFB56 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				9EB82688275EB0600046AA37 /* Views */,
+				9EB82687275EB0540046AA37 /* Controllers */,
+				9EB82686275EB03C0046AA37 /* Models */,
 				9E0B848D275E578600EFFB56 /* AppDelegate.swift */,
 				9E0B848F275E578600EFFB56 /* SceneDelegate.swift */,
-				9E0B8491275E578600EFFB56 /* ViewController.swift */,
-				9E0B84A3275EA8AA00EFFB56 /* Refeicao.swift */,
-				9E0B84A5275EA91C00EFFB56 /* Item.swift */,
-				9E0B8493275E578600EFFB56 /* Main.storyboard */,
 				9E0B8496275E578700EFFB56 /* Assets.xcassets */,
 				9E0B8498275E578700EFFB56 /* LaunchScreen.storyboard */,
 				9E0B849B275E578700EFFB56 /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		9EB82686275EB03C0046AA37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B84A3275EA8AA00EFFB56 /* Refeicao.swift */,
+				9E0B84A5275EA91C00EFFB56 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EB82687275EB0540046AA37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B8491275E578600EFFB56 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9EB82688275EB0600046AA37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B8493275E578600EFFB56 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

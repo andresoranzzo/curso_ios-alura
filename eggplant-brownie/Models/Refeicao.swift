@@ -10,12 +10,12 @@ import UIKit
 class Refeicao: NSObject {
 
     // Atributos
-    var nome: String
-    var felicidade: String
-    var itens: Array<Item> = []
+    let nome: String
+    let felicidade: Int
+    let itens: Array<Item> = []
 
     // Construtor
-    init(nome: String, felicidade: String) {
+    init(nome: String, felicidade: Int) {
         self.nome = nome
         self.felicidade = felicidade
     }
