@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E0B848E275E578600EFFB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B848D275E578600EFFB56 /* AppDelegate.swift */; };
-		9E0B8490275E578600EFFB56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B848F275E578600EFFB56 /* SceneDelegate.swift */; };
-		9E0B8492275E578600EFFB56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B8491275E578600EFFB56 /* ViewController.swift */; };
-		9E0B8495275E578600EFFB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B8493275E578600EFFB56 /* Main.storyboard */; };
-		9E0B8497275E578700EFFB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B8496275E578700EFFB56 /* Assets.xcassets */; };
-		9E0B849A275E578700EFFB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B8498275E578700EFFB56 /* LaunchScreen.storyboard */; };
-		9E0B84A4275EA8AA00EFFB56 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B84A3275EA8AA00EFFB56 /* Refeicao.swift */; };
-		9E0B84A6275EA91C00EFFB56 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B84A5275EA91C00EFFB56 /* Item.swift */; };
-		9EB01FA7275FA9DF00FB487D /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB01FA6275FA9DF00FB487D /* RefeicoesTableViewController.swift */; };
+		9EB01F93275F8D2400FB487D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB01F92275F8D2400FB487D /* AppDelegate.swift */; };
+		9EB01F95275F8D2400FB487D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB01F94275F8D2400FB487D /* SceneDelegate.swift */; };
+		9EB01F97275F8D2500FB487D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB01F96275F8D2400FB487D /* ViewController.swift */; };
+		9EB01F9A275F8D2500FB487D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB01F98275F8D2500FB487D /* Main.storyboard */; };
+		9EB01F9C275F8D2500FB487D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB01F9B275F8D2500FB487D /* Assets.xcassets */; };
+		9EB01F9F275F8D2500FB487D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB01F9D275F8D2500FB487D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E0B848A275E578600EFFB56 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E0B848D275E578600EFFB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E0B848F275E578600EFFB56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E0B8491275E578600EFFB56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E0B8494275E578600EFFB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E0B8496275E578700EFFB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9E0B8499275E578700EFFB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9E0B849B275E578700EFFB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E0B84A3275EA8AA00EFFB56 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
-		9E0B84A5275EA91C00EFFB56 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		9EB01FA6275FA9DF00FB487D /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		9EB01F8F275F8D2400FB487D /* tabela-dinamica-refeicoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabela-dinamica-refeicoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB01F92275F8D2400FB487D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EB01F94275F8D2400FB487D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9EB01F96275F8D2400FB487D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EB01F99275F8D2500FB487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EB01F9B275F8D2500FB487D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB01F9E275F8D2500FB487D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EB01FA0275F8D2500FB487D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9E0B8487275E578600EFFB56 /* Frameworks */ = {
+		9EB01F8C275F8D2400FB487D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,99 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E0B8481275E578600EFFB56 = {
+		9EB01F86275F8D2400FB487D = {
 			isa = PBXGroup;
 			children = (
-				9E0B848C275E578600EFFB56 /* eggplant-brownie */,
-				9E0B848B275E578600EFFB56 /* Products */,
+				9EB01F91275F8D2400FB487D /* tabela-dinamica-refeicoes */,
+				9EB01F90275F8D2400FB487D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9E0B848B275E578600EFFB56 /* Products */ = {
+		9EB01F90275F8D2400FB487D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E0B848A275E578600EFFB56 /* eggplant-brownie.app */,
+				9EB01F8F275F8D2400FB487D /* tabela-dinamica-refeicoes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E0B848C275E578600EFFB56 /* eggplant-brownie */ = {
+		9EB01F91275F8D2400FB487D /* tabela-dinamica-refeicoes */ = {
 			isa = PBXGroup;
 			children = (
-				9EB82688275EB0600046AA37 /* Views */,
-				9EB82687275EB0540046AA37 /* Controllers */,
-				9EB82686275EB03C0046AA37 /* Models */,
-				9E0B848D275E578600EFFB56 /* AppDelegate.swift */,
-				9E0B848F275E578600EFFB56 /* SceneDelegate.swift */,
-				9E0B8496275E578700EFFB56 /* Assets.xcassets */,
-				9E0B8498275E578700EFFB56 /* LaunchScreen.storyboard */,
-				9E0B849B275E578700EFFB56 /* Info.plist */,
+				9EB01F92275F8D2400FB487D /* AppDelegate.swift */,
+				9EB01F94275F8D2400FB487D /* SceneDelegate.swift */,
+				9EB01F96275F8D2400FB487D /* ViewController.swift */,
+				9EB01F98275F8D2500FB487D /* Main.storyboard */,
+				9EB01F9B275F8D2500FB487D /* Assets.xcassets */,
+				9EB01F9D275F8D2500FB487D /* LaunchScreen.storyboard */,
+				9EB01FA0275F8D2500FB487D /* Info.plist */,
 			);
-			path = "eggplant-brownie";
-			sourceTree = "<group>";
-		};
-		9EB82686275EB03C0046AA37 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				9E0B84A3275EA8AA00EFFB56 /* Refeicao.swift */,
-				9E0B84A5275EA91C00EFFB56 /* Item.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9EB82687275EB0540046AA37 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				9E0B8491275E578600EFFB56 /* ViewController.swift */,
-				9EB01FA6275FA9DF00FB487D /* RefeicoesTableViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		9EB82688275EB0600046AA37 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				9E0B8493275E578600EFFB56 /* Main.storyboard */,
-			);
-			path = Views;
+			path = "tabela-dinamica-refeicoes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E0B8489275E578600EFFB56 /* eggplant-brownie */ = {
+		9EB01F8E275F8D2400FB487D /* tabela-dinamica-refeicoes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E0B849E275E578700EFFB56 /* Build configuration list for PBXNativeTarget "eggplant-brownie" */;
+			buildConfigurationList = 9EB01FA3275F8D2500FB487D /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoes" */;
 			buildPhases = (
-				9E0B8486275E578600EFFB56 /* Sources */,
-				9E0B8487275E578600EFFB56 /* Frameworks */,
-				9E0B8488275E578600EFFB56 /* Resources */,
+				9EB01F8B275F8D2400FB487D /* Sources */,
+				9EB01F8C275F8D2400FB487D /* Frameworks */,
+				9EB01F8D275F8D2400FB487D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "eggplant-brownie";
-			productName = "eggplant-brownie";
-			productReference = 9E0B848A275E578600EFFB56 /* eggplant-brownie.app */;
+			name = "tabela-dinamica-refeicoes";
+			productName = "tabela-dinamica-refeicoes";
+			productReference = 9EB01F8F275F8D2400FB487D /* tabela-dinamica-refeicoes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9E0B8482275E578600EFFB56 /* Project object */ = {
+		9EB01F87275F8D2400FB487D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					9E0B8489275E578600EFFB56 = {
+					9EB01F8E275F8D2400FB487D = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 9E0B8485275E578600EFFB56 /* Build configuration list for PBXProject "eggplant-brownie" */;
+			buildConfigurationList = 9EB01F8A275F8D2400FB487D /* Build configuration list for PBXProject "tabela-dinamica-refeicoes" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 9E0B8481275E578600EFFB56;
-			productRefGroup = 9E0B848B275E578600EFFB56 /* Products */;
+			mainGroup = 9EB01F86275F8D2400FB487D;
+			productRefGroup = 9EB01F90275F8D2400FB487D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E0B8489275E578600EFFB56 /* eggplant-brownie */,
+				9EB01F8E275F8D2400FB487D /* tabela-dinamica-refeicoes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9E0B8488275E578600EFFB56 /* Resources */ = {
+		9EB01F8D275F8D2400FB487D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0B849A275E578700EFFB56 /* LaunchScreen.storyboard in Resources */,
-				9E0B8497275E578700EFFB56 /* Assets.xcassets in Resources */,
-				9E0B8495275E578600EFFB56 /* Main.storyboard in Resources */,
+				9EB01F9F275F8D2500FB487D /* LaunchScreen.storyboard in Resources */,
+				9EB01F9C275F8D2500FB487D /* Assets.xcassets in Resources */,
+				9EB01F9A275F8D2500FB487D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9E0B8486275E578600EFFB56 /* Sources */ = {
+		9EB01F8B275F8D2400FB487D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0B84A6275EA91C00EFFB56 /* Item.swift in Sources */,
-				9E0B8492275E578600EFFB56 /* ViewController.swift in Sources */,
-				9E0B848E275E578600EFFB56 /* AppDelegate.swift in Sources */,
-				9EB01FA7275FA9DF00FB487D /* RefeicoesTableViewController.swift in Sources */,
-				9E0B8490275E578600EFFB56 /* SceneDelegate.swift in Sources */,
-				9E0B84A4275EA8AA00EFFB56 /* Refeicao.swift in Sources */,
+				9EB01F97275F8D2500FB487D /* ViewController.swift in Sources */,
+				9EB01F93275F8D2400FB487D /* AppDelegate.swift in Sources */,
+				9EB01F95275F8D2400FB487D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9E0B8493275E578600EFFB56 /* Main.storyboard */ = {
+		9EB01F98275F8D2500FB487D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9E0B8494275E578600EFFB56 /* Base */,
+				9EB01F99275F8D2500FB487D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9E0B8498275E578700EFFB56 /* LaunchScreen.storyboard */ = {
+		9EB01F9D275F8D2500FB487D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9E0B8499275E578700EFFB56 /* Base */,
+				9EB01F9E275F8D2500FB487D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9E0B849C275E578700EFFB56 /* Debug */ = {
+		9EB01FA1275F8D2500FB487D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		9E0B849D275E578700EFFB56 /* Release */ = {
+		9EB01FA2275F8D2500FB487D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +282,7 @@
 			};
 			name = Release;
 		};
-		9E0B849F275E578700EFFB56 /* Debug */ = {
+		9EB01FA4275F8D2500FB487D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -327,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92P9DTDSP4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
+				INFOPLIST_FILE = "tabela-dinamica-refeicoes/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "andre.eggplant-brownie";
+				PRODUCT_BUNDLE_IDENTIFIER = "andre.tabela-dinamica-refeicoes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		9E0B84A0275E578700EFFB56 /* Release */ = {
+		9EB01FA5275F8D2500FB487D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92P9DTDSP4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
+				INFOPLIST_FILE = "tabela-dinamica-refeicoes/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -366,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "andre.eggplant-brownie";
+				PRODUCT_BUNDLE_IDENTIFIER = "andre.tabela-dinamica-refeicoes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -377,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E0B8485275E578600EFFB56 /* Build configuration list for PBXProject "eggplant-brownie" */ = {
+		9EB01F8A275F8D2400FB487D /* Build configuration list for PBXProject "tabela-dinamica-refeicoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E0B849C275E578700EFFB56 /* Debug */,
-				9E0B849D275E578700EFFB56 /* Release */,
+				9EB01FA1275F8D2500FB487D /* Debug */,
+				9EB01FA2275F8D2500FB487D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E0B849E275E578700EFFB56 /* Build configuration list for PBXNativeTarget "eggplant-brownie" */ = {
+		9EB01FA3275F8D2500FB487D /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E0B849F275E578700EFFB56 /* Debug */,
-				9E0B84A0275E578700EFFB56 /* Release */,
+				9EB01FA4275F8D2500FB487D /* Debug */,
+				9EB01FA5275F8D2500FB487D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9E0B8482275E578600EFFB56 /* Project object */;
+	rootObject = 9EB01F87275F8D2400FB487D /* Project object */;
 }
