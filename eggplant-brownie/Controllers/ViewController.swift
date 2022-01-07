@@ -67,6 +67,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet weak var felicidadeTF: UITextField?
 
+    // MARK: - View life cycle
+
+    override func viewDidLoad() {
+        let botaoAdicionaItem = UIBarButtonItem(title: "adicionar", style: .plain, target: self, action: #selector(adicionarItens))
+        navigationItem.rightBarButtonItem = botaoAdicionaItem
+    }
+
+    @objc func adicionarItens() {
+        let adicionarItensViewController = AdicionarItensViewController()
+        navigationController?.pushViewController(adicionarItensViewController, animated: true)
+    }
+
     // MARK: - Actions
 
     @IBAction func adicionar(_ sender: Any) {
