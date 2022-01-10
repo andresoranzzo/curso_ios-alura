@@ -146,6 +146,7 @@
                     <navigationItem key="navigationItem" id="BHX-Lv-whg"/>
                     <connections>
                         <outlet property="felicidadeTF" destination="0CC-AI-sWo" id="ZLN-Ut-kyV"/>
+                        <outlet property="itensTableView" destination="LBz-10-5Yw" id="Sbf-fx-zYy"/>
                         <outlet property="nomeTF" destination="4hS-y4-ppB" id="WKt-PE-dSS"/>
                     </connections>
                 </viewController>
